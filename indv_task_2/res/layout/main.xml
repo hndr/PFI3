@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout 
+	xmlns:android="http://schemas.android.com/apk/res/android"
+    
+    android:layout_width="fill_parent"
+    android:background="#48DD00" 
+    android:layout_height="wrap_content" 
+    android:orientation="vertical" 
+    android:isScrollContainer="true">
+    
+    <TextView 
+    android:layout_width="wrap_content" 
+    android:id="@+id/textView2" 
+    android:layout_height="wrap_content" 
+    android:text="Tag" android:typeface="monospace" 
+    android:layout_marginLeft="5dip" 
+    android:layout_marginTop="15dip"
+    android:textColor="#FFF" 
+    android:textStyle="bold"></TextView>
+    
+    <EditText 
+    android:layout_width="fill_parent" 
+    android:id="@+id/editText1" 
+    android:tag="Tag" 
+    android:inputType="text" 
+    android:maxLength="32" 
+    android:gravity="top" 
+    android:height="55dip" 
+    android:padding="10dip" 
+    android:textColor="#000" 
+    android:layout_margin="5dip" 
+    android:layout_marginTop="5dip" 
+    android:layout_marginBottom="15dip" 
+    android:typeface="monospace" 
+    android:layout_height="50dip"></EditText>
+    
+    <TextView 
+    android:layout_width="wrap_content" 
+    android:id="@+id/textView1" 
+    android:layout_height="wrap_content" 
+    android:text="Message" 
+    android:layout_marginLeft="5dip" 
+    android:typeface="monospace"
+    android:textColor="#FFF" 
+    android:textStyle="bold">
+    </TextView>
+    
+    <EditText 
+    android:layout_width="fill_parent" 
+    android:tag="Message" 
+    android:maxLength="256" 
+    android:gravity="top" 
+    android:padding="5dip" 
+    android:textColor="#000" 
+    android:inputType="text|textMultiLine" 
+    android:layout_gravity="top" 
+    android:typeface="monospace" 
+    android:layout_margin="5dip" 
+    android:layout_marginLeft="10dip" 
+    android:layout_marginTop="5dip" 
+    android:height="90dip" 
+    android:id="@+id/editText2" 
+    android:layout_height="90dip">
+    </EditText>
+    
+    <Button 
+    android:layout_width="110dip" 
+    android:text="Submit" 
+    android:textSize="14dip" 
+    android:typeface="monospace" 
+    android:id="@+id/button1" 
+    android:clickable="true" 
+    android:layout_height="35dip" 
+    android:layout_marginTop="10dip" 
+    android:textColor="#3E3E3E"
+    android:layout_marginLeft= "50dip"
+    android:layout_marginBottom= "40dip">
+    
+    </Button>
+    
+</LinearLayout>
