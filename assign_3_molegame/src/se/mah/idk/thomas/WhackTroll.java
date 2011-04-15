@@ -25,7 +25,6 @@ public class WhackTroll extends Activity implements OnClickListener, Callback{
 	private UpdateUi t;
     private Handler handler;
     public int score=0;
-    
     private int counter =30;
     private final int START_VALUE = 30;
 	
@@ -36,8 +35,8 @@ public class WhackTroll extends Activity implements OnClickListener, Callback{
         setContentView(R.layout.main);
         
         handler = new Handler(this);
-        
         hole = new ArrayList<Mole>();
+        
         Button start= (Button) findViewById(R.id.button10);
         start.setOnClickListener(this);
         
