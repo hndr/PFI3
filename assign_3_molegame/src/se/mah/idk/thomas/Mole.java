@@ -3,7 +3,6 @@ package se.mah.idk.thomas;
 import java.util.ArrayList;
 import java.util.List;
 
-
 import android.content.Context;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
@@ -36,7 +35,7 @@ public class Mole extends Button{
 		}
 		
 	}
-
+	
 	protected void onDraw(Canvas canvas) {
 		// TODO Auto-generated method stub
 		super.onDraw(canvas);

@@ -3,14 +3,14 @@ package se.mah.idk.thomas;
 import android.os.Handler;
 import android.util.Log;
 
-public class uiUpdate extends Thread{
+public class UpdateUi extends Thread{
 	private Handler _ui;
 	private boolean _running =true;
 	
 	public void stopCountDown (){
 		_running = false;
 	} 
-	public uiUpdate(Handler ui){
+	public UpdateUi(Handler ui){
 		_ui = ui; 
 	}
 	@Override
@@ -29,7 +29,4 @@ public class uiUpdate extends Thread{
 		}
 		
 	}
-	
-	
-
 }

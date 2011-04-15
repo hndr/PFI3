@@ -3,7 +3,7 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent" 
     android:orientation="vertical"
-    android:background="#3FC53F">
+    android:background="#1f9712">
     
     <RelativeLayout android:id="@+id/relativeLayout1" 
     android:layout_height="wrap_content" 
@@ -87,9 +87,10 @@
     android:layout_height="wrap_content" android:id="@+id/linearLayout1" 
     android:layout_width="fill_parent">
         <TextView android:layout_height="wrap_content" 
+        
         android:layout_width="wrap_content" 
         android:text="Whack a Troll!" android:id="@+id/textView1" 
-        android:textSize="10pt" android:textColor="#FFF">
+        android:textSize="10pt" android:textColor="#FFF" android:textStyle="bold">
         </TextView>
         
     </LinearLayout>
@@ -101,7 +102,7 @@
         android:text="start" android:id="@+id/button10" 
         android:layout_width="100dip" 
         
-        android:layout_height="fill_parent" android:layout_marginLeft="100dip">
+        android:layout_height="fill_parent" android:layout_marginLeft="100dip" android:textStyle="bold" android:textSize="20dip">
         </Button>
         
     </LinearLayout>
